@@ -124,14 +124,6 @@ img{
     color: white;    
 }
 
-/* 
-@media only screen and (max-width: 375px){
-    .aboutsection{
-        margin: 10px;
-    }
-} */
-
-
 @media screen and (max-width:480px) {
     .main{
         flex-direction: column-reverse;
@@ -148,10 +140,9 @@ img{
     .aboutsection{
         margin: 0;
         padding: 10px;
+        height: 580px;
     }
-    .about{
-        margin: 90px;
-    }
+    
 }
 
 
