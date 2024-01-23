@@ -124,12 +124,12 @@ img{
     color: white;    
 }
 
-
+/* 
 @media only screen and (max-width: 375px){
     .aboutsection{
         margin: 10px;
     }
-}
+} */
 
 
 @media screen and (max-width:480px) {
@@ -146,7 +146,8 @@ img{
         text-align: center;
     }
     .aboutsection{
-        margin: 30px;
+        margin: 0;
+        padding: 10px;
     }
     .about{
         margin: 90px;
