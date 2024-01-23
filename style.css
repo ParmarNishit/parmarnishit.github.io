@@ -137,6 +137,12 @@ img{
         padding-left: 0px;
         text-align: center;
     }
+    .aboutsection{
+        margin: 30px;
+    }
+    .about{
+        margin: 90px;
+    }
 }
 
 
