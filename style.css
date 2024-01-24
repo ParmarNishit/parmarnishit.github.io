@@ -72,31 +72,6 @@ span{
     color: #EEBDFF;
 }
 
-/* .btn{
-    padding-top: 10px;
-}
-
-a{
-    text-decoration: none;
-}
-
-.cvbtn{
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    background-color: #EEBDFF;
-    border-radius: 30px;
-    padding: 12px;
-    cursor: pointer;
-}
-
-.cvbtn :hover{
-    color: white;
-    background-color: black;
-    border: 2px solid #EEBDFF;
-    transition: .1s ease-in-out;
-} */
-
 .cvbtn{
     padding-top: 5px;
 }
@@ -104,7 +79,7 @@ a{
 .btn{
     background-color: #EEBDFF;
     padding: 10px 12px;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 22px;
     color: black;
     border-radius: 30px;
@@ -193,6 +168,9 @@ img{
     }
     .otherskils{
         padding: 100px 0;
+    }
+    .cvbtn{
+        padding-top: 20px;
     }
 }
 
