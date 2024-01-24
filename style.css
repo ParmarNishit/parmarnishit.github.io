@@ -72,8 +72,12 @@ span{
     color: #EEBDFF;
 }
 
-.btn{
+/* .btn{
     padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .cvbtn{
@@ -86,11 +90,25 @@ span{
     cursor: pointer;
 }
 
-.cvbtn:hover{
+.cvbtn :hover{
     color: white;
     background-color: black;
     border: 2px solid #EEBDFF;
     transition: .1s ease-in-out;
+} */
+
+.cvbtn{
+    padding-top: 5px;
+}
+
+.btn{
+    background-color: #EEBDFF;
+    padding: 10px 12px;
+    font-weight: 100;
+    font-size: 22px;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
 }
 
 img{
