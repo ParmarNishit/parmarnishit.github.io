@@ -11,7 +11,7 @@ body {
     font-style: normal;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -26,7 +26,7 @@ html{
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     width: 100%;
     height: 70px;
@@ -34,12 +34,12 @@ nav{
     align-items: center;
 }
 
-.name{
+.name {
     font-size: 30px;
     cursor: pointer;
 }
 
-.navlinks{
+.navlinks {
     display: flex;
     list-style: none;
 }
@@ -51,19 +51,19 @@ nav{
     margin-left: 60px;
 }
 
-.navlinks li a:hover{
+.navlinks li a:hover {
     color: #EEBDFF;
     transition: ease-in .3s;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 168px;
 }
 
-.info{
+.info {
     font-size: xx-large;
     color: white;
     justify-content: center;
@@ -71,15 +71,15 @@ nav{
     padding-left: 78px;
 }
 
-span{
+span {
     color: #EEBDFF;
 }
 
-.cvbtn{
+.cvbtn {
     padding-top: 5px;
 }
 
-.btn{
+.btn {
     background-color: #EEBDFF;
     padding: 10px 12px;
     font-weight: 500;
@@ -89,12 +89,12 @@ span{
     text-decoration: none;
 }
 
-img{
+img {
     height: 480px;
     display: flex;
 }
 
-.aboutsection{
+.aboutsection {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -102,98 +102,109 @@ img{
     justify-content: center;
 }
 
-.about{
+.about {
     color: #EEBDFF;
     text-align: center;
     margin-top: 218px;
 }
 
-.aboutme{
+.aboutme {
     text-align: center;
     color: white;
-    padding: 10px;  
+    padding: 10px;
 }
 
-.education{
+.education {
     text-align: center;
-    color: white;    
+    color: white;
 }
 
-.skils{
+.skils {
     color: #EEBDFF;
     text-align: center;
 }
 
-.skilsection{
+.skilsection {
     color: white;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.skilshead{
+.skilshead {
     color: #EEBDFF;
 }
 
-.frontendskils{
+.frontendskils {
     height: 100px;
     font-size: x-large;
 }
 
-.backendskils{
+.backendskils {
     height: 100px;
     font-size: x-large;
 }
 
-.otherskils{
+.otherskils {
     height: 100px;
     font-size: x-large;
 }
 
 @media screen and (max-width:480px) {
-    .main{
+    .main {
         flex-direction: column-reverse;
         margin-top: 98px;
-    }   
-    .navlinks{
+    }
+
+    .navlinks {
         display: none;
     }
-    .info{
+
+    .info {
         margin-top: 50px;
         padding-left: 0px;
         text-align: center;
     }
-    .aboutsection{
+
+    .aboutsection {
         margin: 0;
         padding: 10px;
         height: 580px;
     }
-    .skilsection{
+
+    .skilsection {
         flex-direction: column;
         text-align: center;
     }
-    .otherskils{
-        padding: 100px 0;
-    }
-    .cvbtn{
+
+    .cvbtn {
         padding-top: 20px;
+    }
+
+    .backendskils {
+        margin-top: 180px;
+    }
+
+    .otherskils {
+        padding: 100px 0;
     }
 }
 
-@media only screen and (max-width: 992px){
-    .info{
+@media only screen and (max-width: 992px) {
+    .info {
         font-size: x-large;
     }
-    img{
+
+    img {
         height: 380px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .main{
-        img{
+    .main {
+        img {
             height: 280px;
         }
-    }   
+    }
 }
