@@ -155,7 +155,7 @@ img {
 @media screen and (max-width:480px) {
     .main {
         flex-direction: column-reverse;
-        margin-top: 98px;
+        padding-top: 98px;
     }
 
     .navlinks {
