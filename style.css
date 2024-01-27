@@ -122,6 +122,7 @@ img {
 .skils {
     color: #EEBDFF;
     text-align: center;
+    margin: 50px;
 }
 
 .skilsection {
@@ -176,7 +177,7 @@ img {
     .skilsection {
         flex-direction: column;
         text-align: center;
-        height: 90vh;
+        height: 70vh;
     }
 
     .cvbtn {
