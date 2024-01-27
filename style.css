@@ -33,7 +33,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     position: fixed;
-    background-color: black;
+    background-color: transparent;
+    backdrop-filter: blur(88px);
 }
 
 .name {
