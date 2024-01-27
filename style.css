@@ -126,7 +126,7 @@ img {
 
 .skilsection {
     color: white;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -176,6 +176,7 @@ img {
     .skilsection {
         flex-direction: column;
         text-align: center;
+        height: 90vh;
     }
 
     .cvbtn {
@@ -191,6 +192,14 @@ img {
     }
 }
 
+@media screen and (max-width:768px) {
+    .main {
+        img {
+            height: 280px;
+        }
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .info {
         font-size: x-large;
@@ -198,13 +207,5 @@ img {
 
     img {
         height: 380px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .main {
-        img {
-            height: 280px;
-        }
     }
 }
