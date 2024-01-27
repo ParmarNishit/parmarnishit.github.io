@@ -32,6 +32,7 @@ nav {
     height: 70px;
     justify-content: space-around;
     align-items: center;
+    /* position: fixed; */
 }
 
 .name {
@@ -60,14 +61,13 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 168px;
+    /* margin-top: 168px; */
+    margin: 168px 0;
 }
 
 .info {
     font-size: xx-large;
     color: white;
-    justify-content: center;
-    align-items: center;
     padding-left: 78px;
 }
 
@@ -127,7 +127,7 @@ img {
 
 .skilsection {
     color: white;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
